@@ -16,15 +16,15 @@ public class LargestStringArray {
         String largestString = arr[0];
         int index = 0;
         for (int i = 1; i < arr.length; i++) {
-            if (largestString < arr[i]) {
+            if (largestString .length()< arr[i].length()) {
                 largestString = arr[i];
                 index = i;
 
             }
         }
 
-        System.out.println("largestNumber:" + largestNumber);
-        System.out.println("largestNumberIndex:" + index);
+        System.out.println("largestString:" + largestString);
+        System.out.println("largestStringIndex:" + index);
 
     }
 
